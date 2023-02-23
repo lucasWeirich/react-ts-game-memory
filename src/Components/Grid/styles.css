@@ -1,0 +1,12 @@
+.text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.2rem;
+}
